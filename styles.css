@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#dice {
+    margin-bottom: 20px;
+}
+
+#raceTrack {
+    position: relative;
+    height: 500px; /* Certifique-se de que a altura seja suficiente */
+    width: 100%;
+    border: 2px solid #000;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+
+.horse {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    /* Adiciona um espaçamento vertical entre os cavalos */
+    left: 0;
+}
+
+#horse1 { top: 0px; }
+#horse2 { top: 40px; }
+#horse3 { top: 80px; }
+#horse4 { top: 120px; }
+#horse5 { top: 160px; }
+#horse6 { top: 200px; }
+#horse7 { top: 240px; }
+#horse8 { top: 280px; }
+#horse9 { top: 320px; }
+#horse10 { top: 360px; }
+#horse11 { top: 400px; }
+#horse12 { top: 440px; }

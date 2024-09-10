@@ -17,6 +17,17 @@ body {
     background: #f0f0f0;
 }
 
+#raceTrack::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: repeating-linear-gradient(to right, transparent, transparent 49px, #000 49px, #000 50px);
+    background-size: 50px 100%;
+}
+
 .horse {
     position: absolute;
     width: 50px;
